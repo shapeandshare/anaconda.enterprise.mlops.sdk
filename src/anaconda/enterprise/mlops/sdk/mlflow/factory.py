@@ -1,5 +1,6 @@
-from ..common.config.environment import demand_env_var
 from mlflow import MlflowClient
+
+from ..common.config.environment import demand_env_var
 
 
 def build_mlflow_client() -> MlflowClient:
