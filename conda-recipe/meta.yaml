@@ -19,7 +19,6 @@ requirements:
     - pip
     - python>=3.9
     - setuptools
-    - docker
   run:
     - python>=3.9
     - mlflow>=2.0.1
