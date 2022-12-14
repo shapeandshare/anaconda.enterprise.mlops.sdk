@@ -1,2 +1,3 @@
-# anaconda.enterprise.mlops
-anaconda.enterprise.mlops
+# anaconda.enterprise.mlops.sdk
+anaconda.enterprise.mlops.sdk
+
