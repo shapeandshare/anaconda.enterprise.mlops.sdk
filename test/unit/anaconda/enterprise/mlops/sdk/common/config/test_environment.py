@@ -22,29 +22,25 @@ class TestEnvironment(unittest.TestCase):
         if "FAKE_VALUE" in os.environ:
             del os.environ["FAKE_VALUE"]
 
-    # def test_demand_env_var(self):
-    #     self.assertEqual(demand_env_var("LOGS_DIR"), os.environ["LOGS_DIR"])
+    def test_demand_env_var(self):
+        self.assertEqual(demand_env_var("LOGS_DIR"), os.environ["LOGS_DIR"])
 
     def test_demand_env_var_should_gracefully_fail(self):
         with self.assertRaises(EnvironmentVariableNotFoundError) as context:
             demand_env_var("FAKE_VALUE")
         self.assertEqual(str(context.exception), "Environment variable (FAKE_VALUE) not found")
 
-    # def test_get_env_var(self):
-    #     self.assertEqual(get_env_var("LOGS_DIR"), os.environ["LOGS_DIR"])
+    def test_get_env_var(self):
+        self.assertEqual(get_env_var("LOGS_DIR"), os.environ["LOGS_DIR"])
 
     def test_get_env_var_should_gracefully_fail(self):
         self.assertIsNone(get_env_var("FAKE_VALUE"))
 
-    # def test_demand_env_var_as_int(self):
-    #     self.assertEqual(
-    #         demand_env_var_as_int("ACCESS_TOKEN_EXPIRATION_TIME"), int(os.environ["ACCESS_TOKEN_EXPIRATION_TIME"])
-    #     )
+    def test_demand_env_var_as_int(self):
+        self.assertEqual(demand_env_var_as_int("SOME_INT"), int(os.environ["SOME_INT"]))
 
-    # def test_demand_env_var_as_float(self):
-    #     self.assertEqual(
-    #         demand_env_var_as_float("ACCESS_TOKEN_EXPIRATION_TIME"), float(os.environ["ACCESS_TOKEN_EXPIRATION_TIME"])
-    #     )
+    def test_demand_env_var_as_float(self):
+        self.assertEqual(demand_env_var_as_float("SOME_FLOAT"), float(os.environ["SOME_FLOAT"]))
 
     def test_demand_env_var_as_bool(self):
         os.environ["FAKE_VALUE"] = "false"

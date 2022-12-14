@@ -4,7 +4,7 @@ import subprocess
 from dotenv import load_dotenv
 
 # load locally defined environmental variables
-load_dotenv(dotenv_path="env/.env.offline")  # take environment variables from .env.
+load_dotenv(dotenv_path="env/env.local")  # take environment variables from .env.
 
 
 def shell_out(shell_out_cmd: str) -> tuple[str, str, int]:
