@@ -32,9 +32,11 @@ jobs:
       with:
         python-version: '3.10'
     - name: Install dependencies
-      run: |
-        conda env update --file environment.yml --name base
-        conda activate base
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        auto-activate-base: false
+        activate-environment: anaconda.enterprise.mlops.sdk
+        environment-file: environment.yml
     - name: Run Auditing
       run: |
         sacr run audit
