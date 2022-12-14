@@ -24,7 +24,7 @@ requirements:
     - mlflow>=2.0.1
 
 about:
-  home: https://github.com/shapeandshare/anaconda.enterprise.mlops.sdkpo
+  home: https://github.com/shapeandshare/anaconda.enterprise.mlops.sdk
   summary: "Anaconda Enterprise MLOps SDK"
   license: MIT
   license_file: LICENSE
