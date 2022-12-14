@@ -36,6 +36,9 @@ jobs:
         auto-activate-base: false
         activate-environment: anaconda.enterprise.mlops.sdk
         environment-file: environment.yml
+    - name: Build
+      run: |
+        sacr run build
     - name: Conda Info
       run: |
         conda info

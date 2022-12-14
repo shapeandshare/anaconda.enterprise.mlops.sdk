@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python>=3.9
     - setuptools
+    - docker
   run:
     - python>=3.9
-    - pip:
-      - mlflow>=2.0.1
+    - mlflow>=2.0.1
 
 about:
   home: https://github.com/shapeandshare/anaconda.enterprise.mlops.sdkpo
