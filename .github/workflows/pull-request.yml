@@ -48,7 +48,7 @@ jobs:
         sacr run lint
     - name: Run Tests
       run: |
-        sacr run test:unit
+        sacr run test
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       env:
