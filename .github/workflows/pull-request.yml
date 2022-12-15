@@ -40,9 +40,6 @@ jobs:
     - name: Conda Info
       run: |
         conda info
-    - name: Build
-      run: |
-        sacr run build
     - name: Run Auditing
       run: |
         sacr run audit
@@ -51,7 +48,7 @@ jobs:
         sacr run lint
     - name: Run Tests
       run: |
-        sacr run test
+        sacr run test:unit
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       env:
@@ -60,3 +57,6 @@ jobs:
       with:
         args: >
           -Dsonar.organization=${{ secrets.SONARCLOUD_ORGANIZATION }}
+    - name: Build
+      run: |
+        sacr run build
