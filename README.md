@@ -1,6 +1,13 @@
-# anaconda.enterprise.mlops.sdk
-anaconda.enterprise.mlops.sdk
+# Anaconda Enterprise MLOps SDK
 
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=shapeandshare_anaconda.enterprise.mlops.sdk&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=shapeandshare_anaconda.enterprise.mlops.sdk)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=shapeandshare_anaconda.enterprise.mlops.sdk&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=shapeandshare_anaconda.enterprise.mlops.sdk)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=shapeandshare_anaconda.enterprise.mlops.sdk&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=shapeandshare_anaconda.enterprise.mlops.sdk)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=shapeandshare_anaconda.enterprise.mlops.sdk&metric=coverage)](https://sonarcloud.io/summary/new_code?id=shapeandshare_anaconda.enterprise.mlops.sdk)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=shapeandshare_anaconda.enterprise.mlops.sdk&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=shapeandshare_anaconda.enterprise.mlops.sdk)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=shapeandshare_anaconda.enterprise.mlops.sdk&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=shapeandshare_anaconda.enterprise.mlops.sdk)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=shapeandshare_anaconda.enterprise.mlops.sdk&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=shapeandshare_anaconda.enterprise.mlops.sdk)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=shapeandshare_anaconda.enterprise.mlops.sdk&metric=bugs)](https://sonarcloud.io/summary/new_code?id=shapeandshare_anaconda.enterprise.mlops.sdk)
 
 Overview
 --------
