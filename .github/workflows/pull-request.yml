@@ -33,7 +33,7 @@ jobs:
     - name: Install dependencies
       uses: conda-incubator/setup-miniconda@v2
       with:
-        channels: conda-forge,defaults
+        channels: defaults,conda-forge
         auto-activate-base: false
         activate-environment: anaconda.enterprise.mlops.sdk
         environment-file: environment.yml
