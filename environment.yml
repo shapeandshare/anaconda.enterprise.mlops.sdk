@@ -12,6 +12,7 @@ dependencies:
   - pip
   - python=3.10.8
   - setuptools
+  - anaconda-client
   - python-dotenv
   - pydantic
   - pip:
