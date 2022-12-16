@@ -3,14 +3,15 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - black=22.6.0
-  - conda-build=3.23.3
-  - coverage=6.3.2
-  - isort=5.9.3
+  - black
+  - conda-build
+  - coverage
+  - isort
   - mlflow=2.0.1
-  - pip=22.3.1
+  - pip
   - python=3.10.8
-  - setuptools=65.5.1
-  - python-dotenv=0.21.0
+  - setuptools
+  - python-dotenv
+  - pydantic
   - pip:
-    - sacr==1.0.0
+    - sacr
