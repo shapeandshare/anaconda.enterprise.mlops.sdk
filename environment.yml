@@ -4,7 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - alembic=1.8.1
-  - anaconda.enterprise.mlops.sdk=0.1.2
   - arrow-cpp=10.0.1
   - astroid=2.11.7
   - aws-c-auth=0.6.21
@@ -81,7 +80,7 @@ dependencies:
   - libev=4.33
   - libevent=2.1.10
   - libffi=3.4.2
-  - libgfortran=5.0.0
+#  - libgfortran=5.0.0
   - libgfortran5=11.3.0
   - libgoogle-cloud=2.5.0
   - libgrpc=1.51.1
