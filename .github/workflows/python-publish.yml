@@ -29,10 +29,10 @@ jobs:
     - name: Install dependencies
       uses: conda-incubator/setup-miniconda@v2
       with:
-        channels: defaults,conda-forge
+        channels: defaults,conda-forge,joshburt
         auto-activate-base: false
         activate-environment: anaconda.enterprise.mlops.sdk
-        environment-file: environment.yml
+        environment-file: environment.github.yml
     - name: Conda Info
       run: |
         conda info
