@@ -1,6 +1,6 @@
 import unittest
 
-from mlflow import MlflowClient
+from mlflow.tracking.client import MlflowClient
 
 from src.anaconda.enterprise.mlops.sdk.mlflow.factory import build_mlflow_client
 
