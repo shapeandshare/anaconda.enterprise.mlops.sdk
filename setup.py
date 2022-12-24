@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="anaconda.enterprise.mlops.sdk",
-    version="0.1.5",
+    version="0.2.0",
     package_dir={"": "src"},
     packages=setuptools.find_namespace_packages(where="src"),
     author="Joshua C. Burt",
